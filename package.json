@@ -1,0 +1,20 @@
+{
+  "name": "clase-11---chat",
+  "version": "1.0.0",
+  "description": "Aplicacion chat creada con node.js, express, socket.io y handlebars para la clase 11 de 'backend' de Coderhouse",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "start:dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Marcelo Dutto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "socket.io": "^4.5.4"
+  }
+}
